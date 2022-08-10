@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit';
+}
+
+.main {
+    box-shadow: 0px 4px 8px 5px hsl(220, 60%, 9%);
+    background-color: hsl(216, 50%, 16%);
+    width: 325px;
+    height: 535px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: auto;
+    border-radius: 18px;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+}
+
+.eq {
+    border-radius: 8px;
+    background: no-repeat;
+    width: 280px;
+    display: block;
+    position: relative;
+}
+
+.bgc {
+    position: absolute;
+    width: 100%;
+    background: hsla(178, 100%, 50%,0.6);
+    opacity: 0;
+    border-radius: 8px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgc:hover{
+    opacity: 1;
+    transition: 0.6s ease-in-out;
+}
+
+.view{
+    background: border-box;
+}
+
+.detail {
+    background-color: hsl(216, 50%, 16%);
+    margin-left: 6px;
+}
+
+.head {
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.head:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.para {
+    color: hsl(215, 51%, 70%);
+    font-family: outfit;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+.icons {
+    list-style-type: none;
+    background: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.et {
+    background: border-box;
+    border-radius: 2px;
+    float: left;
+    margin-right: 5px;
+}
+
+.cl {
+    background: border-box;
+    border-radius: 2px;
+    float: left;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+
+.i1 {
+    color: hsl(178, 100%, 50%);
+    background-color: hsl(216, 50%, 16%);
+    margin-bottom: 10px;
+    margin-top: 4px;
+
+}
+
+.i2 {
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(216, 50%, 16%);
+    margin-right: 24px;
+    margin-top: 4px;
+}
+
+.png {
+    border: 1px solid white;
+    background: border-box;
+    border-radius: 20px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.cc {
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    margin-left: 60px;
+    margin-top: 21px;
+}
+
+.last {
+    color: white;
+    background-color: hsl(216, 50%, 16%);
+    display: inline;
+    font-size: 15px;
+}
+
+.last:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.hr {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 12px;
+    width: 88%;
+    opacity: 0.4;
+    border-bottom: none;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+}
